@@ -11,11 +11,7 @@ Configuration of the application out of the box should be safe to be on the Inte
 
 ## V14.1 Build and Deploy
 
-Build pipelines are the basis for repeatable security - every time something insecure is discovered, it can be resolved in the source code, build or deployment scripts, and tested automatically. We strongly encourage the use of build pipelines with automatic security and dependency checks that warn about or break the build to prevent known security issues from being deployed into production. Manual steps performed irregularly can directly lead to avoidable security mistakes.
-
-As the industry moves to a DevSecOps model, it is important to ensure the continued availability and integrity of deployment and configuration to achieve a "known good" state. In the past, if a system was hacked, it would take days to months to prove that no further intrusions had taken place. Today, with the advent of software-defined infrastructure, rapid A/B deployments with zero downtime, and automated containerized builds, it is possible to automatically and continuously build, harden, and deploy a "known good" replacement for any compromised system.
-
-If traditional models are still in place, then manual steps must be taken to harden and back up that configuration to allow the compromised systems to be quickly replaced with high-integrity, uncompromised systems in a timely fashion.
+We strongly encourage the use of build pipelines with automatic security and checks that warn about or break the build to prevent known security issues from being deployed into production. 
 
 Compliance with this section requires an automated build system, and access to build and deployment scripts.
 
